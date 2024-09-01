@@ -1,0 +1,14 @@
+.help-section img{
+    height: 600px;
+    width: 100%;
+    object-fit: fill;    
+}
+
+/* ------------   Mobile View ------------- */
+
+@media(max-width: 576px) {
+    .help-section img{
+        height: 300px;
+        object-fit: cover;
+    }
+}

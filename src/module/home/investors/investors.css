@@ -1,0 +1,133 @@
+.investors-section {
+    padding: 100px 0;
+}
+
+.investors-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 124px;
+    padding: 0 15px;
+    margin: 0 34px;
+}
+
+.investors-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.investors-text h3 {
+    color: #262626;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.investors-text p {
+    color: #777777;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.investors-logo {
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #EAEFF4;
+    padding-top: 40px;
+    gap: 40px;
+}
+
+.investors-logo img {
+    height: 30px;
+}
+
+.investors-image img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* ------------   Tablet View ------------- */
+
+@media(max-width: 1023px) {
+    .investors-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 60px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .investors-text h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .investors-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .investors-logo {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* ------------   Mobile View ------------- */
+
+@media(max-width: 576px) {
+    .investors-section {
+        padding: 40px 0;
+    }
+}
+
+@media(max-width: 576px) {
+    .investors-grid{
+        padding: 0 20px;
+        margin: 0;
+    }
+}
+
+@media(max-width: 576px) {
+    .investors-logo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+@media(max-width: 576px) {
+    .investors-logo img{
+        width: 100%;
+        height: 23px;
+    }
+}
+
+@media(max-width: 576px) {
+    .investors-image img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 576px) {
+    .investors-text h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 576px) {
+    .investors-text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+

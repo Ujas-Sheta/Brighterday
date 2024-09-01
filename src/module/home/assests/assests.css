@@ -1,0 +1,148 @@
+.assests-section {
+    padding-bottom: 100px;
+}
+
+.assests-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 124px;
+    padding: 0 15px;
+    margin: 0 34px;
+}
+
+.assests-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.assests-text h3 {
+    color: #262626;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.assests-text p {
+    color: #777777;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.assests-logo {
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #EAEFF4;
+    padding-top: 40px;
+    gap: 40px;
+}
+
+.assests-logo img {
+    height: 30px;
+}
+
+.assests-image img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+/* ------------   Teblet View ------------- */
+
+@media(max-width: 1023px) {
+    .assests-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 60px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .assests-image img {
+        padding-right: 0px;
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 1023px) {
+    .assests-text h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .assests-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .assests-logo {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* ------------   Mobile View ------------- */
+
+@media(max-width: 576px) {
+    .assests-section {
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width: 576px) {
+    .assests-grid {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 20px;
+        margin: 0;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 576px) {
+    .assests-logo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+@media(max-width: 576px) {
+    .assests-logo img {
+        height: 23px;
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 576px) {
+    .assests-image img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 576px) {
+    .assests-text h3 {
+        font-size: 20px;
+       
+    }
+}
+
+@media(max-width: 576px) {
+    .assests-text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+

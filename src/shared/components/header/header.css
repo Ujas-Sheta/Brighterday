@@ -1,0 +1,127 @@
+.header-section{
+    padding: 23px 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(295.36deg, #003465 0%, #070346 83.92%);
+    width: 100%;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-logo h2{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.header-menu{
+    padding-top:10px ;
+    align-items: center;
+}
+
+.header-menu a{
+    color: #DEDBFF;
+    font-weight: 600;
+    margin-right: 60px;
+   
+}
+
+.ml{
+    color: #DEDBFF;
+    font-weight: 600;
+    margin-right: 0px;
+    display: inline;
+} 
+
+.header-btn{
+    display: flex;
+    gap: 10px;
+}
+
+.header-btn-req button{
+    color: #fff;
+    font-weight: 600;
+    background-color: #009BF4;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.header-btn-login button{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.header-logo img{
+    display: none;
+}
+
+/* ------------   Tablet View ------------- */
+
+@media(max-width: 1023px) {
+    .header-section{
+        padding:  20px 40px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .header-menu{
+       display: none;
+    }
+}
+
+@media(max-width: 1023px) {
+    .header-logo img{
+       display: block;
+       height: 14px;
+       width: 100%;
+    }
+}
+
+
+/* ------------   Mobile View ------------- */
+
+
+@media(max-width: 576px) {
+    .header-section{
+        padding:  20px 20px;
+    }
+}
+
+@media(max-width: 576px) {
+    .header-menu{
+       display: none;
+    }
+}
+
+@media(max-width: 576px) {
+    .header-logo img{
+       display: block;
+       height: 14px;
+       width: 100%;
+    }
+}
+
+@media(max-width: 576px) {
+    .header-btn-req button{
+       display: none;
+    }
+}
+
+

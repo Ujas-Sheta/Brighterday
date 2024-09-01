@@ -1,0 +1,122 @@
+.trust-section{
+    padding: 200px 50px 100px 50px ;
+}
+
+.trust-text{
+    padding-top: 100px;
+    text-align: center;
+    border-top: 1px solid lightgray;
+}
+
+.trust-text span{
+    color: #009BF4;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    padding-bottom: 20px;
+    display: block;
+    font-size: 16px;
+}
+
+.trust-text h2{
+    color: #262626;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.trust-text p{
+    color: #777777;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    padding:  0 350px;
+    line-height: 30px;
+}
+
+.trust-text h3{
+    display: none;
+    color: #777777;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* ------------   Tablet View ------------- */
+
+@media(max-width: 1023px) {
+    .trust-text span{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .trust-text h2{
+        font-size: 36px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .trust-text p{
+       display: none;
+    }
+}
+
+@media(max-width: 1023px) {
+    .trust-text h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* ------------   Mobile View ------------- */
+
+@media(max-width: 576px) {
+    .trust-section{
+        padding: 100px 0 0 ;
+    }
+}
+
+@media(max-width: 576px) {
+    .trust-text{
+        padding: 30px 20px 60px 20px;
+    }
+}
+
+@media(max-width: 576px) {
+    .trust-text span{
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+
+@media(max-width: 576px) {
+    .trust-text h2{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 576px) {
+    .trust-text p{
+       display: none;
+    }
+}
+
+@media(max-width: 576px) {
+    .trust-text h3{
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+

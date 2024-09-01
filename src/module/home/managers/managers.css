@@ -1,0 +1,140 @@
+.managers-section{
+    padding-bottom: 100px; 
+}
+
+.managers-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 124px;
+    padding: 0 15px;
+    margin: 0 34px;
+}
+
+.managers-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.managers-text h3{
+    color: #262626;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.managers-text p{
+    color: #777777;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.managers-logo{
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #EAEFF4;
+    padding-top: 40px;
+    gap: 40px;
+}
+
+.managers-logo img{
+    height: 30px;
+}
+
+.managers-image img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    padding-right: 60px;
+}
+
+@media(max-width: 1023px) {
+    .managers-grid {
+        grid-template-columns: repeat(1,1fr);
+        gap: 60px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .managers-image img {
+        padding-right: 0px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .managers-text h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .managers-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .managers-logo{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* ------------   Mobile View ------------- */
+
+@media(max-width: 576px) {
+    .managers-section {
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width: 576px) {
+    .managers-grid{
+        padding: 0 20px;
+        margin: 0;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 576px) {
+    .managers-logo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+@media(max-width: 576px) {
+    .managers-logo img {
+        height: 23px;
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 576px) {
+    .managers-image img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 576px) {
+    .managers-text h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 576px) {
+    .managers-text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+

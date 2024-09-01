@@ -1,0 +1,157 @@
+.indicators-section {
+    padding: 120px 50px;
+
+}
+
+.indicators-text h3 {
+    margin-bottom: 40px;
+    color: #262626;
+    font-size: 48px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.indicators-text p {
+    margin-bottom: 60px;
+    color: #777777;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+    max-width: 670px;
+}
+
+.indicators-grid {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 125px;
+}
+
+.indicators-item-1 {
+    display: grid;
+    grid-template-columns: 6px 394px;
+    gap: 15px;
+}
+
+.line-active {
+    background: #03C03C;
+    height: 28px;
+    width: 100%;
+}
+
+.text span {
+    color: #777777;
+    font-weight: 600;
+    padding-bottom: 40px;
+    padding-top: 3px;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    display: block;
+}
+
+.text .active {
+    color: #262626;
+}
+
+.total-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 10px;
+}
+
+.total-grid-item {
+    padding: 20px;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+
+}
+
+.total-grid-item p {
+    color: #262626;
+    font-weight: 500;
+    line-height: 27px;
+    padding-right: 32px;
+    font-size: 18px;
+}
+
+@media(max-width: 1023px) {
+    .indicators-section {
+        padding: 100px 54px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .indicators-text h3 {
+        font-size: 36px;
+        line-height: 43px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .indicators-text p {
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 1023px) {
+    .indicators-grid {
+        grid-template-columns: 340px 1fr;
+        gap: 0px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .total-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+}
+
+/* ------------   Mobile View ------------- */
+
+@media(max-width: 576px) {
+    .indicators-section {
+        margin: 0;
+        padding: 60px 20px;
+    }
+}
+
+@media(max-width: 576px) {
+    .indicators-text h3 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 576px) {
+    .indicators-text p {
+        font-size: 15px;
+        margin-bottom: 40px;
+        line-height: 22px;
+    }
+}
+
+@media(max-width: 576px) {
+    .text span {
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width: 576px) {
+    .total-grid-item p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 576px) {
+    .indicators-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+    }
+}
+
+@media(max-width: 576px) {
+    .indicators-item-1 {
+        grid-template-columns: 6px 1fr;
+    }
+}
